@@ -12,7 +12,11 @@ double soma(double x, double y){
 //soma
 //subtração
 //raiz quadrada
-//eleva ao quadrado
+int eleva_ao_quadrado (int n) {
+	int i = n*n;
+	return i;
+}
+
 //eleva a x
 //divisão
 //multiplicação
