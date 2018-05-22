@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 double soma(double x, double y){
 	double ans = x+y;
@@ -12,12 +13,20 @@ double soma(double x, double y){
 //subtração
 //raiz quadrada
 //eleva ao quadrado
-//eleva a x
+int eleva(int a, int x){
+	pow(a,x);
+}
 //divisão
-//multiplicação
+double multiplicacao(double a, double b){
+	return a * b;
+}
 //porcentagem
-//retorna pi
-//inverso (1/x)
+double retornaPi(){
+	return 3.1415;
+}
+double inversao(double a){
+	return (1 / a);
+}
 //fatorial
 //retorna exp
 //seno
