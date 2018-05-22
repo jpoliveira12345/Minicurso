@@ -19,7 +19,3 @@
 //tangent
 //fibonacci
 //média de n elementos
-int main(){
-
-
-}
