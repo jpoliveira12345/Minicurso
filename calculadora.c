@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int soma(double x, double y){
-	int ans = x+y;
+double soma(double x, double y){
+	double ans = x+y;
 
 	return ans;
 }
