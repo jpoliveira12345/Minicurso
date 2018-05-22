@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <stdlib.h>
 
 //menu
@@ -23,3 +23,4 @@ int main(){
 
 
 }
+//JOHN PAUL VC É MUITO LINDO
