@@ -3,6 +3,10 @@
 
 //menu
 //soma
+int sum(int a, int b)
+{
+	return a + b;
+}
 //subtração
 //raiz quadrada
 //eleva ao quadrado
