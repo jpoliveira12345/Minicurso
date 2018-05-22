@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 //menu
 //soma
@@ -14,6 +15,9 @@
 //inverso (1/x)
 //fatorial
 //retorna exp
+double retornaexp (double x){
+	return pow(2.71828182846,x);
+	}
 //seno
 //cosseno
 //tangent
