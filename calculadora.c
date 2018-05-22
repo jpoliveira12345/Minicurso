@@ -1,6 +1,6 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <stdlib.h>
-
+#include <math.h>
 //menu
 //soma
 //subtração
@@ -14,7 +14,9 @@
 //inverso (1/x)
 //fatorial
 //retorna exp
-//seno
+double seno(int rad){
+	return sin(rad);
+}
 //cosseno
 //tangent
 //fibonacci
