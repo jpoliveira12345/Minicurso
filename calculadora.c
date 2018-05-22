@@ -14,6 +14,11 @@
 //inverso (1/x)
 //fatorial
 //retorna exp
+//seno
+//cosseno
+//tangent
+//fibonacci
+//média de n elementos
 int main(){
 
 
