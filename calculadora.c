@@ -18,6 +18,9 @@ double soma(double x, double y){
 //multiplicação
 //porcentagem
 //retorna pi
+double retornaPi(){
+    return 3.14159265359;
+}
 //inverso (1/x)
 //fatorial
 //retorna exp
@@ -39,6 +42,6 @@ int fibonacci(int n){
 }
 //média de n elementos
 int main(){
-
+    double
 
 }
