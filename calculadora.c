@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+double soma(double x, double y){
+	double ans = x+y;
+
+	return ans;
+}
+
 //menu
 //soma
 //subtração
