@@ -11,6 +11,10 @@
 //multiplicação
 //porcentagem
 //retorna pi
+float retPi(){
+        return 3.141596;s
+
+}
 //inverso (1/x)
 //fatorial
 //retorna exp
