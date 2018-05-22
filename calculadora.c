@@ -45,3 +45,14 @@ int main(){
     double
 
 }
+
+double soma(double a, double b){
+	
+	return a+b;
+}
+
+double eleva(double a){
+	
+	return a*a;
+}
+
