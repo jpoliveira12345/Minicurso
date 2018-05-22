@@ -8,10 +8,6 @@
 //eleva ao quadrado
 //eleva a x
 //divisão
-int divisao(float a, float b){
-        return a/b;
-}
-
 //multiplicação
 //porcentagem
 //retorna pi
