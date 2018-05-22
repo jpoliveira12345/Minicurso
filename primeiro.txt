@@ -1,3 +1,6 @@
 Primeira versão do minicurso
 
+
 Alterações feitas no branch master
+Alterações no branch teste
+
