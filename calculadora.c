@@ -2,12 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-double soma(double x, double y){
-	double ans = x+y;
-
-	return ans;
-}
-
 //menu
 int menu() {
 	int opcao;
@@ -100,6 +94,21 @@ int eleva_ao_quadrado (int n) {
 }
 
 //eleva a x
+
+//fiz aí a função de elevar a X
+int eleva(int numb,int pow)
+{
+	int i;
+	for(i=1; i<=pow;i++)
+	{
+		numb *= pow;
+	}
+	
+	return numb;
+}
+
+
+
 //divisão
 //multiplicação
 //porcentagem
