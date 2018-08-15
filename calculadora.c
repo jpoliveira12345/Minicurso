@@ -105,7 +105,7 @@ int eleva_ao_quadrado (int n) {
 //porcentagem
 //retorna pi
 double retornaPi(){
-    return 3.14159265359;
+    return 3.1415926535897932384626433832795028841971;
 }
 //inverso (1/x)
 //fatorial
