@@ -8,7 +8,7 @@ double soma(double x, double y){
 	return ans;
 }
 
-//menu
+/* menu */
 int menu() {
 	int opcao;
 	for(;;) {
@@ -32,58 +32,58 @@ int menu() {
 		scanf("%d", &opcao);
 		switch(opcao) {
 		case 1:
-			//soma
+			printf("A soma é: 10");
 			break;
 		case 2:
-			//subtracao
+			/* subtracao */
 			break;
 		case 3:
-			//raiz quadrada
+			/* raiz quadrada */
 			break;
 		case 4:
-			//eleva ao quadrado
+			/* eleva ao quadrado */
 			break;
 		case 5:
-			//eleva a x
+			/* eleva a x */
 			break;
 		case 6:
-			//divisao
+			/* divisao */
 			break;
 		case 7:
-			//multiplicacao
+			/* multiplicacao */
 			break;
 		case 8:
-			//porcentagem
+			/* orcentagem */
 			break;
 		case 9:
-			//retorna pi
+			/*retorna pi*/
 			break;
 		case 10:
-			//inverso (1/x)
+			/*inverso (1/x)*/
 			break;
 		case 11:
-			//fatorial
+			/* fatorial */
 			break;
 		case 12:
-			//retorna exp
+			/* retorna exp */
 			break;
 		case 13:
-			//seno
+			/* seno */
 			break;
 		case 14:
-			//cosseno
+			/*cosseno*/
 			break;
 		case 15:
-			//tangente
+			/*tangente*/
 			break;
 		case 16:
-			//fibonacci
+			/*fibonacci*/
 			break;
 		case 17:
-			//media de n elementos
+			/*media de n elementos*/
 			break;
 		case 18:
-			//media de n elementos
+			/*media de n elementos*/
 			break;
 		default:
 			printf("Comando invalido.\n");
@@ -91,13 +91,19 @@ int menu() {
 	}
 }
 
-//soma
-//subtração
-//raiz quadrada
+/*soma
+subtração
+raiz quadrada*/
 int eleva_ao_quadrado (int n) {
 	int i = n*n;
 	return i;
 }
+
+/*eleva a x*/
+/*divisão*/
+/*multiplicação*/
+/*porcentagem*/
+/*retorna pi*/
 
 int eleva_ao_cubo (int n){
 	return n ? (n*n*n) : 0;
@@ -111,6 +117,13 @@ int eleva_ao_cubo (int n){
 double retornaPi(){
     return 3.1415926535897932384626433832795028841971;
 }
+/*inverso (1/x)*/
+/*fatorial*/
+/*retorna exp*/
+/*seno*/
+/*cosseno*/
+/*tangent*/
+/*fibonacci*/
 
 //inverso (1/x)
 //fatorial
@@ -119,6 +132,7 @@ double retornaPi(){
 //cosseno
 //tangent
 //fibonacci
+
 int fibonacci(int n){
     if(n==0){
         return 0;
@@ -131,9 +145,6 @@ int fibonacci(int n){
         }
     }
 }
-//média de n elementos
-int main(){
-    double
 
-}
+
 
