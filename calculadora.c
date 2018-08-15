@@ -104,8 +104,18 @@ int eleva_ao_quadrado (int n) {
 /*multiplicação*/
 /*porcentagem*/
 /*retorna pi*/
+
+int eleva_ao_cubo (int n){
+	return n ? (n*n*n) : 0;
+}
+
+//eleva a x
+//divisão
+//multiplicação
+//porcentagem
+//retorna pi
 double retornaPi(){
-    return 3.14159265359;
+    return 3.1415926535897932384626433832795028841971;
 }
 /*inverso (1/x)*/
 /*fatorial*/
@@ -114,6 +124,15 @@ double retornaPi(){
 /*cosseno*/
 /*tangent*/
 /*fibonacci*/
+
+//inverso (1/x)
+//fatorial
+//retorna exp
+//seno
+//cosseno
+//tangent
+//fibonacci
+
 int fibonacci(int n){
     if(n==0){
         return 0;
