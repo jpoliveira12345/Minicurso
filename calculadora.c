@@ -99,6 +99,10 @@ int eleva_ao_quadrado (int n) {
 	return i;
 }
 
+int eleva_ao_cubo (int n){
+	return n ? (n*n*n) : 0;
+}
+
 //eleva a x
 //divisão
 //multiplicação
@@ -107,6 +111,7 @@ int eleva_ao_quadrado (int n) {
 double retornaPi(){
     return 3.14159265359;
 }
+
 //inverso (1/x)
 //fatorial
 //retorna exp
