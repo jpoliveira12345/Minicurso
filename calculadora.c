@@ -1,6 +1,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 double soma(double x, double y){
 	double ans = x+y;
@@ -128,6 +129,9 @@ double retornaPi(){
 //inverso (1/x)
 //fatorial
 //retorna exp
+double retornaexp (double x){
+	return pow(2.71828182846,x);
+	}
 //seno
 //cosseno
 //tangent
