@@ -127,6 +127,17 @@ double retornaPi(){
 
 //inverso (1/x)
 //fatorial
+int i, x, total, y;
+	printf("Insira um numero 'x'\n");
+	scanf("%d",&x);
+	i=0;
+	total=1;
+	while(i<x)
+	{
+		total=total*(x-i);
+		i++;
+	}
+	printf("total: %d\n",total);
 //retorna exp
 //seno
 //cosseno
